@@ -1,0 +1,133 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+*::defore, *::after{box-sizing: border-box;}
+
+@keyframes circle{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+.page {
+	height: 100vh;
+	background: transparent url(https://p4.music.126.net/RvTUmr9wQR-xjhAxWZ3VoA==/17702137207605115.jpg) no-repeat
+	center center;
+	background-size: cover;
+}
+
+.disc-container {
+	position: relative;
+	/*border:1px solid red;*/
+}
+.disc-container .pointer{
+	width: 25vw;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-3vw);
+}
+.disc-container .disc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 18vw;
+}
+.disc-container .ring{
+	width: 77vw;
+}
+.disc-container .light{
+	width: 77vw;
+	position: absolute;
+}
+.disc-container .cover{
+	width: 49.5vw;
+	position: absolute;
+	border-radius: 50%;
+}
+.disc-container.playing .light, .disc-container.playing .cover{
+	animation: circle 20s infinite linear;
+} 
+
+.icon-wraper {
+	border: 2px solid #fff;
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15vw;
+	width: 15vw;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.5);
+}
+.icon {
+	fill: #fff;
+	height: 8vw;
+}
+.icon-wraper.playing .icon-play {
+	display: none;
+}
+.icon-wraper.pausing .icon-pause {
+	display: none;
+}
+/*.icon.icon-play {
+	display: ;
+}
+.icon.icon-pause {
+	display: none;
+}*/
+
+
+.song-description {
+	flex-grow: 1;
+	color: rgba(255,255,255,0.5);
+	/*color: #bab0a9;*/
+	text-align: center;
+	line-height: 2;
+	margin-top: 20px;
+}
+.song-description .title{
+	font-size: 20px;
+}
+.song-description .lyrics {
+	height: 78px;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.song-description p {
+	font-size: 16px;
+	line-height: 26px;
+}
+.song-description .lyrics p.active {
+	color: #fff;
+} 
+
+.links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.links > a {
+	border: 1px solid red;
+	width: 43vw;
+	/*margin-left: 1em;*/
+	margin-bottom: 1em;
+	text-align: center;
+	border: 1px solid #d33a31;
+	text-decoration: none;
+	color: #d33a31;
+	padding: 2vw;
+	border-radius: 6vw;
+}
+.links .download {
+	color: #fff;
+	background-color: #d33a31;
+}
+.mengceng {
+	background-color: rgba(0,0,0,0.5);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
