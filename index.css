@@ -2,6 +2,7 @@
 *::defore, *::after{box-sizing: border-box;}
 ol,ul{list-style: none;}
 h1,h2,h3{font-weight: normal;}
+a{text-decoration: none;}
 /*这里是通用的类*/
 body {
     font-size: 3.7vw;
@@ -101,6 +102,9 @@ h2.title {
 	position: relative;
 	padding: 1vw 0;
 }
+.latestMusic>ol>li a {
+	color: #888;
+}
 .latestMusic>ol>li>p {
 	font-size: 3.73vw;
 	padding: 1vw 0;
@@ -108,8 +112,9 @@ h2.title {
 	display: flex;
 	align-items: center;
 }
-.latestMusic>ol>li>h3 {
+.latestMusic>ol>li>a h3 {
 	font-size: 4.53vw;
+    color: #000;
 	/*margin-top: 2vw;*/
 }
 .latestMusic .play-circled {
