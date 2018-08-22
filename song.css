@@ -16,6 +16,13 @@
 	center center;
 	background-size: cover;
 }
+.return {
+	height: 7vw;
+    width: 7vw;
+    position: absolute;
+    left: 3vw;
+    top: 5vw;
+}
 
 .disc-container {
 	position: relative;

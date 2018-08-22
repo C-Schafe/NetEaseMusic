@@ -1,18 +1,72 @@
 [
   {
-  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E6%88%90%E9%83%BD1.m4a",
-  	"name":"成都"
+  	"id":1,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E6%88%90%E9%83%BD1.mp3",
+  	"name":"成都",
+  	"albumn":"成都",
+  	"singer":"赵雷"
   },
   {
+  	"id":2,
   	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E7%8C%9C%E4%B8%8D%E9%80%8F2.mp3",
-  	"name":"猜不透"
+  	"name":"猜不透",
+  	"albumn":"猜不透（Cover.丁当）",
+  	"singer":"菌菌酱"
   },
   {
+  	"id":3,
   	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E7%A9%BA%E7%A9%BA%E5%A6%82%E4%B9%9F3.mp3",
-  	"name":"空空如也"
+  	"name":"空空如也",
+  	"albumn":"空空如也",
+  	"singer":"任然"
   },
   {
+  	"id":4,
   	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
-  	"name":"远走高飞"
+  	"name":"远走高飞",
+  	"albumn":"Hello 1",
+  	"singer":"金志文/徐佳莹"
+  },
+  {
+  	"id":4,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
+  	"name":"远走高飞",
+  	"albumn":"Hello 1",
+  	"singer":"金志文/徐佳莹"
+  },
+  {
+  	"id":4,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
+  	"name":"远走高飞",
+  	"albumn":"Hello 1",
+  	"singer":"金志文/徐佳莹"
+  },
+  {
+  	"id":4,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
+  	"name":"远走高飞",
+  	"albumn":"Hello 1",
+  	"singer":"金志文/徐佳莹"
+  },
+  {
+  	"id":4,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
+  	"name":"远走高飞",
+  	"albumn":"Hello 1",
+  	"singer":"金志文/徐佳莹"
+  },
+  {
+  	"id":4,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
+  	"name":"远走高飞",
+  	"albumn":"Hello 1",
+  	"singer":"金志文/徐佳莹"
+  },
+  {
+  	"id":4,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
+  	"name":"远走高飞",
+  	"albumn":"Hello 1",
+  	"singer":"金志文/徐佳莹"
   }
 ]

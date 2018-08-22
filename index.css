@@ -94,6 +94,9 @@ h2.title {
 
 /*最新音乐部分*/
 .latestMusic{}
+.latestMusic>p {
+	text-align: center;
+}
 .latestMusic>ol {
 	padding-left: 2.5vw;
 }
