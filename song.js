@@ -2,36 +2,52 @@ $(function(){
 	let songid = parseInt(location.search.match(/\bid=([^&]*)/)[1])
 
 	$.get('./songs.json').then(function(response){
-
+		//获取歌曲id
+		let songs = response
 		let songurl = response.filter(e=>e.id === songid)[0]
-
 		let {url} = songurl
+		console.log(songs)
+		console.log('下面是songurl')
+		console.log(songurl)
+		//创建播放封面和背景
+		let $img = $(`<img class="cover" src="${songurl.coverimg}">`)
+		$('.disc').append($img)
+		$('.page').css('background',`transparent url(${songurl.backgroundimg}) no-repeat
+	center center`)
 		//创建播放的音乐
 		let audio = document.createElement('audio');
 		audio.src = url
 		audio.oncanplay = function(){
-			audio.play()
+			//$('.icon-wraper').removeClass('pausing')
+			//$('.icon-wraper').removeClass('playing')
+			// audio.play()
+			$('.light, .cover').css('animation-play-state','paused')
 			setTimeout(function(){
-				$('.disc-container').addClass('playing')
-				$('.icon-wraper').addClass('playing')
-			},0)
+			 	$('.disc-container').addClass('playing')
+			 	$('.icon-wraper').addClass('pausing')
+		    },0)
 		}
 
 		$('.icon-pause').on('click', function(){
-			//console.log('暂停被点了')
+			console.log('暂停被点了')
 			audio.pause()
+			$('.light, .cover').css('animation-play-state','paused')
 			$('.icon-wraper').removeClass('playing')
 			$('.icon-wraper').addClass('pausing')
 			//$('.disc-container').removeClass('playing')
-			$('.light, .cover').css('animation-play-state', 'paused')
+			// setTimeout(function(){
+			// 	$('.light, .cover').css('animation-play-state','paused')
+			// },0)
+			
 		})
 		$('.icon-play').on('click', function(){
-			//console.log('播放被点了')
+			console.log('播放被点了')
 			audio.play()
+			$('.light, .cover').css('animation-play-state','running')	
 			$('.icon-wraper').removeClass('pausing')
 			$('.icon-wraper').addClass('playing')
 			//$('.disc-container').addClass('playing')
-			$('.light, .cover').css('animation-play-state', 'running')
+			
 		})
 
 	})

@@ -4,69 +4,90 @@
   	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E6%88%90%E9%83%BD1.mp3",
   	"name":"成都",
   	"albumn":"成都",
-  	"singer":"赵雷"
+  	"singer":"赵雷",
+  	"coverimg":"./img/成都cover.jpg",
+  	"backgroundimg":"./img/成都背景.jpg"
   },
   {
   	"id":2,
   	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E7%8C%9C%E4%B8%8D%E9%80%8F2.mp3",
   	"name":"猜不透",
   	"albumn":"猜不透（Cover.丁当）",
-  	"singer":"菌菌酱"
+  	"singer":"菌菌酱",
+  	"coverimg":"./img/猜不透cover.jpg",
+  	"backgroundimg":"./img/猜不透背景.jpg"
   },
   {
   	"id":3,
   	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E7%A9%BA%E7%A9%BA%E5%A6%82%E4%B9%9F3.mp3",
   	"name":"空空如也",
   	"albumn":"空空如也",
-  	"singer":"任然"
+  	"singer":"任然",
+  	"coverimg":"./img/空空如也cover.jpg",
+  	"backgroundimg":"./img/空空如也背景.jpg"
   },
   {
   	"id":4,
   	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
   	"name":"远走高飞",
   	"albumn":"Hello 1",
-  	"singer":"金志文/徐佳莹"
+  	"singer":"金志文/徐佳莹",
+  	"coverimg":"./img/远走高飞cover.jpg",
+  	"backgroundimg":"./img/空空如也背景.jpg"
+
   },
   {
-  	"id":4,
-  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
-  	"name":"远走高飞",
-  	"albumn":"Hello 1",
-  	"singer":"金志文/徐佳莹"
+  	"id":5,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E9%92%9F%E6%97%A0%E8%89%B35.mp3",
+  	"name":"钟无艳",
+  	"albumn":"3/8",
+  	"singer":"谢安琪",
+  	"coverimg":"./img/钟无艳cover.jpg",
+  	"backgroundimg":"./img/钟无艳背景.jpg"
   },
   {
-  	"id":4,
-  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
-  	"name":"远走高飞",
-  	"albumn":"Hello 1",
-  	"singer":"金志文/徐佳莹"
+  	"id":6,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%AF%B4%E6%95%A3%E5%B0%B1%E6%95%A36.mp3",
+  	"name":"说散就散",
+  	"albumn":"说散就散",
+  	"singer":"袁娅维",
+  	"coverimg":"./img/说散就散cover.jpg",
+  	"backgroundimg":"./img/说散就散背景.jpg"
   },
   {
-  	"id":4,
-  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
-  	"name":"远走高飞",
-  	"albumn":"Hello 1",
-  	"singer":"金志文/徐佳莹"
+  	"id":7,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E5%8D%83%E5%8D%83%E9%98%99%E6%AD%8C7.mp3",
+  	"name":"千千阙歌",
+  	"albumn":"千千阙歌",
+  	"singer":"陈慧娴",
+  	"coverimg":"./img/千千阙歌cover.jpg",
+  	"backgroundimg":"./img/千千阙歌背景.jpg"
   },
   {
-  	"id":4,
-  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
-  	"name":"远走高飞",
-  	"albumn":"Hello 1",
-  	"singer":"金志文/徐佳莹"
+  	"id":8,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%9C%9A%E8%9C%9A8.mp3",
+  	"name":"蜚蜚",
+  	"albumn":"All The Best 纪念全集",
+  	"singer":"陈僖仪",
+  	"coverimg":"./img/蜚蜚cover.jpg",
+  	"backgroundimg":"./img/蜚蜚背景.jpg"
   },
   {
-  	"id":4,
-  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
-  	"name":"远走高飞",
-  	"albumn":"Hello 1",
-  	"singer":"金志文/徐佳莹"
+  	"id":9,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E5%A4%B1%E8%81%94%E9%98%B5%E7%BA%BF%E8%81%94%E7%9B%9F9.mp3",
+  	"name":"失恋阵线联盟",
+  	"albumn":"失恋阵线联盟",
+  	"singer":"草蜢",
+  	"coverimg":"./img/失恋阵线联盟cover.jpg",
+  	"backgroundimg":"./img/失恋阵线联盟背景.jpg"
   },
   {
-  	"id":4,
-  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E8%BF%9C%E8%B5%B0%E9%AB%98%E9%A3%9E4.mp3",
-  	"name":"远走高飞",
-  	"albumn":"Hello 1",
-  	"singer":"金志文/徐佳莹"
+  	"id":10,
+  	"url":"http://pdv7vcpk4.bkt.clouddn.com/%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%A4%AA%E9%98%B310.mp3",
+  	"name":"小小的太阳",
+  	"albumn":"月亮 太阳",
+  	"singer":"张宇",
+  	"coverimg":"./img/小小的太阳cover.jpg",
+  	"backgroundimg":"./img/小小的太阳背景.jpg"
   }
 ]
