@@ -14,7 +14,7 @@
 	height: 100vh;
 	/*background: transparent url(https://p4.music.126.net/RvTUmr9wQR-xjhAxWZ3VoA==/17702137207605115.jpg) no-repeat
 	center center;*/
-	background-size: cover;
+	background-size: contain;
 }
 .return {
 	height: 7vw;
@@ -94,9 +94,20 @@
 	line-height: 2;
 	margin-top: 20px;
 }
-.song-description .title{
-	font-size: 20px;
+.song-description .title .song-name{
+	font-size: 4.8vw;
+	color: #fff;
 }
+.song-description .title b{
+	color: #fff;
+}
+.song-description .title .sing-name{
+	font-size: 4.2vw;
+}
+.song-description .lyrics .lines {
+	transition: transform 0.3s;
+}
+
 .song-description .lyrics {
 	height: 78px;
 	/*border: 1px solid red;*/
