@@ -1,0 +1,74 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+*::defore, *::after{box-sizing: border-box;}
+ol,ul{list-style: none;}
+h1,h2,h3{font-weight: normal;}
+a{text-decoration: none;}
+/*--------------------------------------*/
+
+
+.pylst-header{}
+.pylst-header {
+	display: flex;
+	position: relative;
+	height: 49.8vw;
+	padding: 8vw 0vw 8vw 4.2vw;
+	border: 1px solid black;/*
+	background: transparent url(./img/playlist.jpg) no-repeat center center;*/
+	background-size: cover;
+	position: relative;
+	/*filter: blur(30px);*/
+}
+.pylst-header:after {
+	content: "";
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background: transparent url(./img/playlist.jpg) no-repeat center center;
+    background-size: 150% 150%;
+    filter: blur(10px);
+    z-index: -2;
+}
+.pylst-header:before{
+    content: "";
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,0.2);
+    z-index: -1;
+    /*
+    background: transparent url(./img/playlist.jpg) no-repeat center center;
+    background-size: 200vw 200vw;
+    filter: blur(30px);
+    z-index: -1;*/
+}
+.pylst-header .img-container {
+	border: 1px solid red;
+	/*position: absolute;*/
+	position: relative;
+	/*z-index: 1;*/
+}
+.pylst-header .pylst-name {
+	/*z-index: 1;*/
+}
+.pylst-header .img-container>img {
+	height: 34.1vw;
+	width: 34.1vw;
+}
+.pylst-header .img-container span, .pylst-header .img-container i {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pylst-header .pylst-name {
+	border: 1px solid blue;
+}
+
+.pylst-intro {}
+
+.pylst{}
+
+footer{}
