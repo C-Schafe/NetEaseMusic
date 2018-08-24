@@ -19,8 +19,6 @@ $(function(){
 			$('#latestSongs').append($li)
 		})
 		$('.latestMusic>.loading, .tabContents>.loading').remove()
-		//$('.tabContents>.tab1').remove()
-
 	},()=>{alert('failed...')})
 
     //tab切换功能

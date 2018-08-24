@@ -47,9 +47,11 @@ p.loading {
     border-bottom: 1px solid #ccc;
     /*line-height: 12vw;*/
     font-size: 1.1em;
+
 }
 .siteNav > ol > li {
 	flex: 1;
+
 	/*border:1px solid black;*/
 }
 .siteNav > ol > li.active{
@@ -101,8 +103,9 @@ p.loading {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+	color: #000;
 }
-.playlists>ul>li>img {
+.playlists>ul>li img {
 	width: 100%;
 }
 
