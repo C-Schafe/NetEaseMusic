@@ -112,6 +112,39 @@ $(function(){
         },500)
 	})
 	
+
+	$('.searchFor').on('click', function(){
+		let keywords = $('#search').val()
+		$('.search-advise').remove()
+		$resultLis.eq(2).addClass('active').siblings().removeClass('active')
+		search(keywords).then(function(result){
+			if(result.length !== 0 ){
+	    		let $result = $(`
+		    			<p class="best">最佳匹配</p>
+						<div>
+							<a href="./song.html?id=${result[0].id}">
+								<h3>${result[0].name}</h3>
+							    <p>${result[0].singer}-${result[0].albumn}</p>
+						        <a href="#">
+							        <svg class="icon play-circled" aria-hidden="true">
+					                  <use xlink:href="#icon-play-circle-big"></use>
+						            </svg>
+					            </a>
+					        </a>
+				        </div>
+	    			`)
+	    		//$('.loading').remove()
+	    		$('.searched>.loading').removeClass('active')
+	    		$('.searched').append($result)
+	    		//$('.search-result>.searched>h3').text(result.map(r=>r.name).join(','))
+	    		console.log('放到h3了')
+	    	}else{
+	    		$('.loading').remove()
+	    		let $p = $('<p class="no-result">暂时没有结果</p>')
+	    		$('.searched').append($p)
+	    	}
+		})
+	})
 	//搜索关键字的歌曲
 	function searchBaseonAdvise(){
 		$('.search-advise').on('click', function(){
@@ -147,40 +180,8 @@ $(function(){
 			})
 		})
 	}
-	//点击search-advise时搜索歌曲
-	$('.search-advise').on('click', function(){
-		console.log('根据search-advise搜索')
-		let keywords = $('#search').val()
-		$('.search-advise').remove()
-		$resultLis.eq(2).addClass('active').siblings().removeClass('active')
-		search(keywords).then(function(result){
-			if(result.length !== 0 ){
-	    		let $result = $(`
-		    			<p class="best">最佳匹配</p>
-						<div>
-							<a href="./song.html?id=${result[0].id}">
-								<h3>${result[0].name}</h3>
-							    <p>${result[0].singer}-${result[0].albumn}</p>
-						        <a href="#">
-							        <svg class="icon play-circled" aria-hidden="true">
-					                  <use xlink:href="#icon-play-circle-big"></use>
-						            </svg>
-					            </a>
-					        </a>
-				        </div>
-	    			`)
-	    		//$('.loading').remove()
-	    		$('.searched>.loading').removeClass('active')
-	    		$('.searched').append($result)
-	    		//$('.search-result>.searched>h3').text(result.map(r=>r.name).join(','))
-	    		console.log('放到h3了')
-	    	}else{
-	    		$('.loading').remove()
-	    		let $p = $('<p class="no-result">暂时没有结果</p>')
-	    		$('.searched').append($p)
-	    	}
-		})
-	})
+	
+	
 
 	//按x删除搜索关键字并返回默认搜索界面
 	$('.iconDeleteitem').on('click', function(){
