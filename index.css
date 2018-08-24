@@ -261,3 +261,150 @@ section.art .copyright {
 #hot-music-item p {
 	font-size: 12px;
 }
+
+/*搜索部分*/
+.tabContents .tab3 .search-wraper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5vw;
+	border: 1px solid #f0f1f2;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.tabContents .tab3 .search-wraper>input {
+	/*border: 1px solid red;*/
+	border: 0; /* 方法1 */
+	background-color: #ebecec;
+	color: #c9c9c9;
+	line-height: 2em;
+	width: 100%;
+	border-radius: 1em;
+	padding-left: 8vw;
+	height: 2em;
+}
+.tabContents .tab3 .search-wraper>input.active{
+	color: #000;
+}
+.tabContents .tab3 .search-wraper>.icon.search {
+	fill: red;
+	height: 3.5vw;
+	width: 3.5vw;
+	position: absolute;
+	left: 8vw;
+}
+.tabContents .tab3 .search-wraper>.iconDeleteitem {
+	fill: #bcbdbd;
+	position: absolute;
+	width: 4vw;
+	height: 4vw;
+	right: 7vw;
+}
+
+
+.search-result .default {
+	/*width: 70vw;/**/
+	padding-left: 1vw;*/
+	
+}
+.search-result .default p, .search-result .searched>p{
+	font-size: 12px;
+	padding: 1em 0em;
+}
+.search-result .default span {
+	border: 1px solid #ebecec;
+	font-size: 3.7vw;
+	padding: 1vw 2vw;
+	line-height: 6vw;
+	border-radius: 5vw; 
+	margin-bottom: 2vw; 
+	margin-left: 1vw;
+}
+.search-result .default .default-tags {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 2vw;
+}
+.search-result>li {
+	display: none;
+}
+.search-result>li.active {
+	display: block;
+}
+.search-result .searchFor {
+	padding: 3vw 6vw;
+	border-bottom: 1px solid #ebecec;
+	font-size: 4vw;
+	color: #507daf;
+}
+/*searched的渲染样式*/
+.search-result>.searched {
+	padding-left: 2.5vw;
+}
+.search-result>.searched .no-result{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.search-result>.searched>div {
+	border-bottom: 1px solid #f1f1f2;
+	position: relative;
+	padding: 1vw 0;
+}
+.search-result>.searched>div a{
+	color: #888;
+}
+.search-result>.searched>div>p {
+	font-size: 12px;
+	padding: 1vw 0;
+	color: #888;
+	display: flex;
+	align-items: center;
+}
+.search-result>.searched>div>a h3 {
+	font-size: 4.53vw;
+    color: #507daf;
+	/*margin-top: 2vw;*/
+}
+.search-result .play-circled{
+    fill: #aaa;
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    right: 2vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.search-result .icon.sq {
+	fill: #fe672e;
+	height: 4vw;
+	width: 4vw;
+	margin-right: 0.5vw;
+}
+.search-result .search-advise {
+	display: flex;
+	align-items: center;
+	padding: 0vw 3vw;
+}
+.search-result .search-advise>svg {
+	fill: #b9b8b9;
+	width: 5vw;
+	height: 5vw;
+}
+.search-result .search-advise {
+	color: #000;
+}
+.search-result .search-advise>p {
+	margin-left: 10px;
+	border-bottom: 1px solid #f0f1f2;
+	flex: 1;
+	line-height: 12vw;
+}
+.searched .loading.active{
+	display: block;
+}
+.searched .loading {
+	display: none;
+}

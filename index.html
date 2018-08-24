@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="./index.css">
-	<script src="//at.alicdn.com/t/font_802471_odk5c6k67q.js"></script>
+	<script src="//at.alicdn.com/t/font_802471_3uitse4o2e6.js"></script>
 </head>
 <body>
 	<!--cd desktop/task/NetEaseMusic-->
@@ -106,10 +106,60 @@
 			</ol>
 		</li>
 		<li class="tab3">
-			搜索
 			<p class="loading">
 				<img src="./loading.gif" alt="loading">
 			</p>
+			<div class="search-wraper">
+				<svg class="icon search" aria-hidden="true">
+				    <use xlink:href="#icon-search"></use>
+				</svg>
+				<input type="text" id="search" placeholder="搜索歌曲、歌手、专辑">
+				<svg class="icon iconDeleteitem" aria-hidden="true">
+				    <use xlink:href="#icon-iconDeleteitem"></use>
+				</svg>
+			</div>
+			<ul class="search-result">
+				<li class="default active">
+					<p>热门搜索</p>
+					<div class="default-tags">
+						<span>成都</span>
+						<span>猜不透</span>
+						<span>空空如也</span>
+						<span>远走高飞</span>
+						<span>钟无艳</span>
+						<span>说散就散</span>
+						<span>蜚蜚</span>
+						<span>失恋阵线联盟</span>
+						<span>小小的太阳</span>
+					</div>
+				</li>
+				<li class="searchFor">
+
+				</li>
+				<!-- <div class="search-advise">
+						<svg class="icon search" aria-hidden="true">
+						    <use xlink:href="#icon-search"></use>
+						</svg>
+						<p>小小的太阳</p>
+				</div> -->
+				<li class="searched ">
+					<p class="loading active">
+						<img src="./loading.gif" alt="loading">
+					</p>
+					<!-- <p>最佳匹配</p>
+					<div>
+						<a href="./song.html?id=${e.id}">
+							<h3>${e.name}</h3>
+						    <p>${e.singer}-${e.albumn}</p>
+					        <a href="#">
+						        <svg class="icon play-circled" aria-hidden="true">
+				                  <use xlink:href="#icon-play-circle-big"></use>
+					            </svg>
+				            </a>
+				        </a>
+			        </div> -->
+				</li>
+			</ul>
 		</li>
 	</ol>
 	
