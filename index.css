@@ -284,6 +284,9 @@ section.art .copyright {
 	padding-left: 8vw;
 	height: 2em;
 }
+#search {
+	outline: none;
+}
 .tabContents .tab3 .search-wraper>input.active{
 	color: #000;
 }
